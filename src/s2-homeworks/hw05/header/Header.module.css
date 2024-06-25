@@ -1,0 +1,30 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
+	background-color: #333;
+	color: white;
+}
+
+.header h1 {
+	margin: 0;
+	font-size: 24px;
+}
+
+.burgerMenuIcon {
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+}
+
+.menu {
+	position: absolute;
+	top: 60px;
+	right: 20px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+	padding: 10px;
+	z-index: 1000;
+}

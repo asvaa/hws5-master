@@ -1,0 +1,22 @@
+.App {
+	--header_height: 60px;
+
+	font-family: Arial, sans-serif;
+	color: #333;
+	background: #f4f4f4;
+}
+
+.hw {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-top: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hwTitle {
+	font-size: 24px;
+	color: #000;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
